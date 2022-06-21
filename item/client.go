@@ -45,6 +45,7 @@ NEXT:
 	items = append(items, tmpItems...)
 
 	if endpointTmp != "" {
+		endpoint = endpointTmp
 		goto NEXT
 	}
 
